@@ -1,0 +1,49 @@
+.titulo {
+  color: #bdc5cd;
+  font-size: 8rem;
+  margin-bottom: 48px;
+}
+
+.experiencia-lista div{
+  margin-bottom: 48px;
+}
+
+.experiencia p{
+  font-size: 1.75rem;
+  font-family: "Archivo Narrow", "Arial Narrow";
+  margin-top: 20px;
+}
+
+.experiencia h3 {
+  font-size: 2rem;
+  font-family: "Archivo Narrow", "Arial Narrow";
+  position: relative;
+}
+
+.experiencia-lista {
+  margin-top: 20px;
+}
+
+.experiencia-lista p{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #223B51;
+}
+
+.experiencia-lista h3::before{
+  content: "";
+  display: block;
+  width: 4px;
+  height: 1.5rem;
+  background-color: #D24F20;
+  position: absolute;
+  left: -32px;
+  top: 7px;
+}
+
+@media (max-width: 950px) {
+  h2 {
+    max-width: initial;
+    text-transform: capitalize;
+  }
+}

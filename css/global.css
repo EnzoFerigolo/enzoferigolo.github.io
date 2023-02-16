@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  font-family: "DM Serif Display";
+  background-color: #d5dfe4;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-size: 8rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 6ch;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
