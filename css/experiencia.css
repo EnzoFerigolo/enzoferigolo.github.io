@@ -2,6 +2,7 @@
   color: #bdc5cd;
   font-size: 8rem;
   margin-bottom: 48px;
+  max-width: 5ch;
 }
 
 .experiencia-lista div{
@@ -38,12 +39,17 @@
   background-color: #D24F20;
   position: absolute;
   left: -32px;
-  top: 7px;
+  top: 10px;
 }
 
 @media (max-width: 950px) {
   h2 {
     max-width: initial;
     text-transform: capitalize;
+    word-break: keep-all;
+    font-size: 4rem !important;
+  }
+  p{
+    font-size: 1.25rem !important;
   }
 }

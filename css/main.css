@@ -49,7 +49,9 @@ main {
     grid-template-columns: 1fr;
     max-width: 600px;
   }
-  .container p {
-    margin-left: 0px;
+  .introducao h1{
+    font-size: 3rem;
   }
 }
+
+

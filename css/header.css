@@ -24,6 +24,8 @@ header {
   line-height: 1.5;
   color: #132838;
   display: block;
+  font-weight: 0;
+  font-family: serif;
 }
 
 .decorador::before {
@@ -47,5 +49,19 @@ header {
   }
   .decorador::before {
     top: 127px;
+  }
+}
+@media (max-width: 650px) {
+  header{
+    align-items: center;
+  }
+  .menu a {
+    font-size: 1.125rem;
+    border: 1px solid #132838;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0px #1328386e;
+  }
+  .decorador::before {
+    content: none;
   }
 }
